@@ -77,15 +77,15 @@ Exceeded rest time/ Total rest time/ Total exceeded rest time/
 
 layout1 = [[sg.Text('Current session', size=(20, 2)), sg.Text('0', size=(20, 2), key='-CURRENT_SESSION-')],
            [sg.Text('Current session time', size=(20, 2))], 
-           [sg.Text('00:00', size=(None, 3), justification='center', key='-CURRENT_SESSION_TIME-', font=(None,40), pad=((50, 0), 0))],
+           [sg.Text('00:00', size=(None, 3), justification='center', key='-CURRENT_SESSION_TIME-', font=(None,40), pad=((40, 0), 0))],
            [sg.Text('Total working time', size=(20, 2)), sg.Text('00:00', size=(20, 2), key='-TOTAL_WORKING_TIME-')],
            [sg.Button('Start', key='-BUTTON11-'), sg.Button('Rest', key='-BUTTON12-', disabled=True)]]
 
 layout2 = [[sg.Text('Resting time', size=(20, 4))], 
-           [sg.Text('00:00', size=(None, 3), justification='center', key='-RESTING_TIME-', font=(None,40), pad=((50, 0), 0))]]
+           [sg.Text('00:00', size=(None, 3), justification='center', key='-RESTING_TIME-', font=(None,40), pad=((40, 0), 0))]]
 
 layout3 = [[sg.Text('Exceeded rest time', size=(20, 4))], 
-           [sg.Text('00:00', size=(None, 3), justification='center', key='-EXCEEDED_TIME-', font=(None,40), pad=((50, 0), 0))],
+           [sg.Text('00:00', size=(None, 3), justification='center', key='-EXCEEDED_TIME-', font=(None,40), pad=((40, 0), 0))],
            [sg.Text('Total rest time', size=(20, 2)), sg.Text('00:00', size=(20, 2), key='-TOTAL_REST_TIME-')],
            [sg.Text('Total exceeded rest time', size=(20, 2)), sg.Text('00:00', size=(20, 2), key='-TOTAL_EXCEEDED_TIME-')]
            ]
